@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bible Verses</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main" id="title"></div>
+    <div class="main" id="verse"></div>
+    <div id="inputContainer">
+      <div class="smallContainer">
+        <div class="smallTitle">Book</div>
+        <input id="inputBook">
+      </div>
+      <div class="smallContainer">
+        <div class="smallTitle">Chapter</div>
+        <input id="inputChapter">
+      </div>
+      <div class="smallContainer">
+        <div class="smallTitle">Verse</div>
+        <input id="inputVerse">
+      </div>
+    </div>
+    <button id="go" onclick="displayVerse()">Click</button>
+    <script src="index.js"></script>
+  </body>
+</html>
